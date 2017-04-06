@@ -15,7 +15,57 @@
 		<link href="css/bootstrap.css" rel="stylesheet">
 	</head>
 	<body>
-		<div class="container"><h1>hello bootstrap !</h1>这是我的第一个bootstrap页面</div>
+		<div class="container"><h1>hello bootstrap !<br><small>小标题</small></small></h1>这是我的第一个bootstrap页面</div>
+		<p class="lead">
+		突出显示差异
+		</p>
+		<p class="blockquote-reverse">有什么<mark>很大的不同</mark>吗？
+		</p>
+		
+		<ol class="list-inline">
+			<li>创意
+			<li>团队
+			<li>商务
+		</ol>
+		<div class="table-responsive">
+			<table class="table table-bordered table-hover">
+				<tr class="success"><td>1</td><td>hanty.zhang</td><td>32 year's old , this year .</td></tr>
+				<tr class="warning"><td>2</td><td>jewry.yao</td><td>30 year's old , this year .</td></tr>
+				<tr class="danger"><td>3</td><td>goerge.zhang</td><td>4 year's old , this year .</td></tr>
+				<tr class="info"><td>4</td><td>none.??</td><td>0 year's old , this year .</td></tr>
+			</table>
+		</div>
+		
+		<form class="form-inline">
+			<div class="row">
+				<div class="col-lg-4 form-group has-warning has-feedback" >
+					<label for="my.name" class="control-label">你的昵称</label>
+					<input type="text" class="form-control" id="my.name" placeholder="你的昵称">
+					<span class="glyphicon glyphicon-warning-sign form-control-feedback" aria-hidden="true"></span>
+				</div>
+				<div class="col-lg-4 form-group has-error  has-feedback" >
+					<label for="my.age" class="control-label">你的芳龄</label>
+					<input type="text" class="form-control" id="my.age" placeholder="你的芳龄">
+					<span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+				</div>
+				<div class="col-lg-4 form-group has-success  has-feedback" >
+					<label for="my.properties" class="control-label">你的财产</label>
+					<div class="input-group">
+						<div class="input-group-addon">¥</div>
+						<input type="text" class="form-control" id="my.properties" placeholder="你的财产">
+						<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+	<!-- 					<div class="input-group-addon">万元（整）</div> -->
+					</div>
+				</div>
+			</div>
+			<button class="btn btn-primary btn-lg btn-block">注册(primary)</button>
+			<button class="btn btn-success btn-lg">注册(success)</button>
+			<button class="btn btn-warning btn-lg">注册(warning)</button>
+			<button class="btn btn-info btn-lg">注册(info)</button>
+			<button class="btn btn-danger btn-lg btn-block">注册(danger)</button>
+		</form>
+		
+		<img src="img/zxc.jpeg" alt="《国产凌凌漆》" class="img-circle center-block" >
 		<script type="text/javascript" src="js/jquery-3.2.0.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 	</body>

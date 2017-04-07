@@ -15,10 +15,11 @@
 		<link href="css/bootstrap.css" rel="stylesheet">
 	</head>
 	<body>
-		<div class="container"><h1>hello bootstrap !<br><small>小标题</small></small></h1>这是我的第一个bootstrap页面</div>
+		<div class="container"><h1>hello !<br><small>小标题</small></small></h1>这是我的第一个bootstrap页面</div>
 		<p class="lead">
 		突出显示差异
 		</p>
+		<a name="topAnchor" href="#" class="sr-only sr-only-focusable">顶部锚点</a>
 		<p class="blockquote-reverse">有什么<mark>很大的不同</mark>吗？
 		</p>
 		
@@ -65,7 +66,21 @@
 			<button class="btn btn-danger btn-lg btn-block">注册(danger)</button>
 		</form>
 		
-		<img src="img/zxc.jpeg" alt="《国产凌凌漆》" class="img-circle center-block" >
+		<img src="img/zxc.jpeg" alt="《国产凌凌漆》" class="img-circle center-block" style="zoom:.3;">
+		
+		<div class="show container clearfix"><!-- 未生效，可能是布局问题 -->
+			<div class="pull-right">快速浮动</div>
+			<div class="hidden">我是隐藏的，你看不见-_-||</div>
+		</div>
+		<a href="#topAnchor">点我回到顶部，顶部锚点激活可见，失去焦点后隐藏</a>
+		
+		<h1>text-hide 是什么鬼。</h1>
+		<div>
+			响应式工具类
+			<div class="visible-xs-block btn-lg btn-success">手机端  &lt;= 768px 显示。我是visible-xs*</div>
+			<div class="visible-sm-block btn-lg btn-info">手机 端  &lt;= 768px 隐藏。我是hidden-xs</div>
+		</div>
+		
 		<script type="text/javascript" src="js/jquery-3.2.0.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 	</body>

@@ -13,11 +13,16 @@
 		  <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
 <link href="css/bootstrap.css" rel="stylesheet">
+<style type="text/css">
+	body{
+		padding-top: 30px;
+	}
+</style>
 </head>
 <body>
-	<h1 class="test">
-		hello<br>
-		<small>组件</small>
+	<h1 class="text-uppercase text-capitalize text-danger">
+		hello
+		<span class="label label-danger">组件</span>
 	</h1>
 	<button class="btn btn-default btn-lg">
 		<span class="glyphicon glyphicon-star dropdown-toggle"></span> Star
@@ -79,23 +84,118 @@
 		</span>
 		<input class="form-control" placeholder="此处填写其他需求">
 	</div>
+	<div class="navbar-fixed-top navbar-inverse">
+		<div class="container-fluid">
+			<ul class="nav nav-pills">
+				<li class="text-uppercase bg-danger active"><a href="#">frount<span class="badge"> 12</span></a></li>
+				<li class="text-uppercase bg-success"><a href="#">business case</a></li>
+				<li class="text-uppercase bg-warning"><a href="#">docment</a></li>
+			</ul>
+		</div>
+	</div>
 	
-	<ul class="nav nav-pills nav-stacked">
-		<li class="text-uppercase bg-danger active"><a href="#">frount</a></li>
-		<li class="text-uppercase bg-success"><a href="#">business case</a></li>
-		<li class="text-uppercase bg-warning"><a href="#">docment</a></li>
-	</ul>
-	
-	<form action="#" class="navbar-form navbar-left form-inline form-horizontal">
-		<div class="col-xs-6">
+	<form action="#" class="navbar-form navbar-left">
+		<div class="col-xs-5">
 			<div class="form-group">
 				<input class="form-control text-uppercase" placeholder="search">
 			</div>
 		</div>
-		<div class="col-xs-6">
+		<div class="col-xs-7">
+			<p class="navbar-text navbar-right text-uppercase"> wen zi
+				<a href="#" class="navbar-link"> link </a>
+			</p>
 			<button class="btn btn-info text-uppercase ">submit</button>
 		</div>
-		<button class="navbar-btn">out</button>
 	</form>
+	<ol class="breadcrumb">
+	  <li><a href="#">Home</a></li>
+	  <li><a href="#">Library</a></li>
+	  <li class="active">Data</li>
+	</ol>
+	
+	<ul class="pagination pagination-lg">
+		<li><a href="#"> &laquo;</a></li>
+		<li class="active"><a href="#"> 1</a></li>
+		<li><a href="#"> 2</a></li>
+		<li><a href="#"> 3</a></li>
+		<li><a href="#"> 4</a></li>
+		<li><a href="#"> &raquo;</a></li>
+	</ul>
+	
+	<ul class="pager">
+		<li class="previous text-uppercase"><a href="#">previus</a></li>
+		<li class="next text-uppercase"><a href="#">next<span class="badge"> 4</span></a></li>
+	</ul>
+	
+	<div class="jumbotron">
+		<h1 class="text-uppercase" >jumbotron</h1>
+		<p>zhe shi juping zujian ...</p>
+		<a href="#" class="btn btn-primary btn-lg">learn more ...<span class="badge">&nbsp;200,123K&nbsp;</span></a>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-3">
+			<div class="thumbnail"><img alt="picture" src="img/zbl.jpeg">
+				<div class="caption">
+					<h3>卓别林</h3>
+					<p>查理·卓别林（Charlie Chaplin），1889年4月16日生于英国伦敦，英国影视演员、导演、编剧。查理·卓别林的第一部电影是《谋生》。从1915年开始卓别林开始自编自导自演，甚至还担任制片和剪辑。</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="thumbnail"><img alt="picture" src="img/zbl.jpeg">
+				<div class="caption">
+					<h3>卓别林</h3>
+					<p>查理·卓别林（Charlie Chaplin），1889年4月16日生于英国伦敦，英国影视演员、导演、编剧。查理·卓别林的第一部电影是《谋生》。从1915年开始卓别林开始自编自导自演，甚至还担任制片和剪辑。</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="thumbnail"><img alt="picture" src="img/zbl.jpeg">
+				<div class="caption">
+					<h3>卓别林</h3>
+					<p>查理·卓别林（Charlie Chaplin），1889年4月16日生于英国伦敦，英国影视演员、导演、编剧。查理·卓别林的第一部电影是《谋生》。从1915年开始卓别林开始自编自导自演，甚至还担任制片和剪辑。</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="thumbnail"><img alt="picture" src="img/zbl.jpeg">
+				<div class="caption">
+					<h3>卓别林</h3>
+					<p>查理·卓别林（Charlie Chaplin），1889年4月16日生于英国伦敦，英国影视演员、导演、编剧。查理·卓别林的第一部电影是《谋生》。从1915年开始卓别林开始自编自导自演，甚至还担任制片和剪辑。</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="thumbnail"><img alt="picture" src="img/zbl.jpeg">
+				<div class="caption">
+					<h3>卓别林</h3>
+					<p>查理·卓别林（Charlie Chaplin），1889年4月16日生于英国伦敦，英国影视演员、导演、编剧。查理·卓别林的第一部电影是《谋生》。从1915年开始卓别林开始自编自导自演，甚至还担任制片和剪辑。</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="thumbnail"><img alt="picture" src="img/zbl.jpeg">
+				<div class="caption">
+					<h3>卓别林</h3>
+					<p>查理·卓别林（Charlie Chaplin），1889年4月16日生于英国伦敦，英国影视演员、导演、编剧。查理·卓别林的第一部电影是《谋生》。从1915年开始卓别林开始自编自导自演，甚至还担任制片和剪辑。</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="thumbnail"><img alt="picture" src="img/zbl.jpeg">
+				<div class="caption">
+					<h3>卓别林</h3>
+					<p>查理·卓别林（Charlie Chaplin），1889年4月16日生于英国伦敦，英国影视演员、导演、编剧。查理·卓别林的第一部电影是《谋生》。从1915年开始卓别林开始自编自导自演，甚至还担任制片和剪辑。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="alert alert-info">信息提示框</div>
+	<div class="alert alert-warning">信息警告框</div>
+	<div class="alert alert-success">操作成功提示框</div>
+	<div class="alert alert-danger">操作失败提示框</div>
+	<div class="alert alert-info">信息提示框。<a class="alert-link" href="#">链接至...</a></div>
 </body>
 </html>

@@ -1,88 +1,168 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>Bootstrap全局CSS</title>
-		
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bootstrap全局CSS</title>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
 		  <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		  <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
-		<link href="css/bootstrap.css" rel="stylesheet">
-	</head>
-	<body>
-		<a href="components.html">组件</a>
-		<div class="container"><h1>hello !<br><small>小标题</small></small></h1>这是我的第一个bootstrap页面</div>
-		<p class="lead">
-		突出显示差异
-		</p>
-		<a name="topAnchor" href="#" class="sr-only sr-only-focusable">顶部锚点</a>
-		<p class="blockquote-reverse">有什么<mark>很大的不同</mark>吗？
-		</p>
-		
-		<ol class="list-inline">
-			<li>创意
-			<li>团队
-			<li>商务
-		</ol>
-		<div class="table-responsive">
-			<table class="table table-bordered table-hover">
-				<tr class="success"><td>1</td><td>person 001</td><td>32 year's old , this year .</td></tr>
-				<tr class="warning"><td>2</td><td>person 002</td><td>30 year's old , this year .</td></tr>
-				<tr class="danger"><td>3</td><td>person 007</td><td>4 year's old , this year .</td></tr>
-				<tr class="info"><td>4</td><td>none.??</td><td>0 year's old , this year .</td></tr>
-			</table>
-		</div>
-		
-		<form class="form-inline">
-			<div class="row">
-				<div class="col-lg-4 form-group has-warning has-feedback" >
-					<label for="my.name" class="control-label">你的昵称</label>
-					<input type="text" class="form-control" id="my.name" placeholder="你的昵称">
-					<span class="glyphicon glyphicon-warning-sign form-control-feedback" aria-hidden="true"></span>
-				</div>
-				<div class="col-lg-4 form-group has-error  has-feedback" >
-					<label for="my.age" class="control-label">你的芳龄</label>
-					<input type="text" class="form-control" id="my.age" placeholder="你的芳龄">
-					<span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
-				</div>
-				<div class="col-lg-4 form-group has-success  has-feedback" >
-					<label for="my.properties" class="control-label">你的财产</label>
-					<div class="input-group">
-						<div class="input-group-addon">¥</div>
-						<input type="text" class="form-control" id="my.properties" placeholder="你的财产">
-						<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
-	<!-- 					<div class="input-group-addon">万元（整）</div> -->
-					</div>
+<link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+	<a href="components.html">组件</a>
+	<div class="container">
+		<h1>
+			hello !<br>
+			<small>小标题</small></small>
+		</h1>
+		这是我的第一个bootstrap页面
+	</div>
+	<p class="lead">突出显示差异</p>
+	<a name="topAnchor" href="#" class="sr-only sr-only-focusable">顶部锚点</a>
+	<p class="blockquote-reverse">
+		有什么
+		<mark>很大的不同</mark>
+		吗？
+	</p>
+
+	<ol class="list-inline">
+		<li>创意
+		<li>团队
+		<li>商务
+	</ol>
+	<div class="table-responsive">
+		<table class="table table-bordered table-hover">
+			<tr class="success">
+				<td>1</td>
+				<td>person 001</td>
+				<td>32 year's old , this year .</td>
+			</tr>
+			<tr class="warning">
+				<td>2</td>
+				<td>person 002</td>
+				<td>30 year's old , this year .</td>
+			</tr>
+			<tr class="danger">
+				<td>3</td>
+				<td>person 007</td>
+				<td>4 year's old , this year .</td>
+			</tr>
+			<tr class="info">
+				<td>4</td>
+				<td>none.??</td>
+				<td>0 year's old , this year .</td>
+			</tr>
+		</table>
+	</div>
+
+	<form class="form-inline">
+		<div class="row">
+			<div class="col-lg-4 form-group has-warning has-feedback">
+				<label for="my.name" class="control-label">你的昵称</label> <input
+					type="text" class="form-control" id="my.name" placeholder="你的昵称">
+				<span class="glyphicon glyphicon-warning-sign form-control-feedback"
+					aria-hidden="true"></span>
+			</div>
+			<div class="col-lg-4 form-group has-error  has-feedback">
+				<label for="my.age" class="control-label">你的芳龄</label> <input
+					type="text" class="form-control" id="my.age" placeholder="你的芳龄">
+				<span class="glyphicon glyphicon-remove form-control-feedback"
+					aria-hidden="true"></span>
+			</div>
+			<div class="col-lg-4 form-group has-success  has-feedback">
+				<label for="my.properties" class="control-label">你的财产</label>
+				<div class="input-group">
+					<div class="input-group-addon">¥</div>
+					<input type="text" class="form-control" id="my.properties"
+						placeholder="你的财产"> <span
+						class="glyphicon glyphicon-ok form-control-feedback"
+						aria-hidden="true"></span>
+					<!-- 					<div class="input-group-addon">万元（整）</div> -->
 				</div>
 			</div>
-			<button class="btn btn-primary btn-lg btn-block">注册(primary)</button>
-			<button class="btn btn-success btn-lg">注册(success)</button>
-			<button class="btn btn-warning btn-lg">注册(warning)</button>
-			<button class="btn btn-info btn-lg">注册(info)</button>
-			<button class="btn btn-danger btn-lg btn-block">注册(danger)</button>
-		</form>
-		
-		<img src="img/zxc.jpeg" alt="《国产凌凌漆》" class="img-circle center-block" style="zoom:.3;">
-		
-		<div class="show container clearfix"><!-- 未生效，可能是布局问题 -->
-			<div class="pull-right">快速浮动</div>
-			<div class="hidden">我是隐藏的，你看不见-_-||</div>
 		</div>
-		<a href="#topAnchor">点我回到顶部，顶部锚点激活可见，失去焦点后隐藏</a>
-		
-		<h1>text-hide 是什么鬼。</h1>
-		<div>
-			响应式工具类
-			<div class="visible-xs-block btn-lg btn-success">手机端  &lt;= 768px 显示。我是visible-xs*</div>
-			<div class="visible-sm-block btn-lg btn-info">手机 端  &lt;= 768px 隐藏。我是hidden-xs</div>
+		<button class="btn btn-primary btn-lg btn-block">注册(primary)</button>
+		<button class="btn btn-success btn-lg">注册(success)</button>
+		<button class="btn btn-warning btn-lg">注册(warning)</button>
+		<button class="btn btn-info btn-lg">注册(info)</button>
+		<button class="btn btn-danger btn-lg btn-block">注册(danger)</button>
+	</form>
+
+	<img src="img/zxc.jpeg" alt="《国产凌凌漆》" class="img-circle center-block"
+		style="zoom: .3;">
+
+	<div class="show container clearfix">
+		<!-- 未生效，可能是布局问题 -->
+		<div class="pull-right">快速浮动</div>
+		<div class="hidden">我是隐藏的，你看不见-_-||</div>
+	</div>
+	<a href="#topAnchor">点我回到顶部，顶部锚点激活可见，失去焦点后隐藏</a>
+
+	<h1>text-hide 是什么鬼。</h1>
+	<div>
+		响应式工具类
+		<div class="visible-xs-block btn-lg btn-success">手机端 &lt;= 768px
+			显示。我是visible-xs*</div>
+		<div class="visible-sm-block btn-lg btn-info">手机 端 &lt;= 768px
+			隐藏。我是hidden-xs</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-xs-2">
+			<input type="text" class="form-control" placeholder=".col-xs-2">
 		</div>
-		
-		<script type="text/javascript" src="js/jquery-3.2.0.js"></script>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-	</body>
+		<div class="col-xs-3">
+			<input type="text" class="form-control" placeholder=".col-xs-3">
+		</div>
+		<div class="col-xs-4">
+			<input type="text" class="form-control" placeholder=".col-xs-4">
+		</div>
+		<div class="col-xs-3">
+			<input type="text" class="form-control" placeholder=".col-xs-3">
+		</div>
+	</div>
+	<div class="list-group">
+		<div class="row list-group-item">
+			<div class="col-xs-6">
+				<img src="img/zxc.jpeg" class="img-responsive">
+			</div>
+			<div class="col-xs-6">
+				<img src="img/zxc.jpeg" class="img-responsive">
+			</div>
+		</div>
+		<div class="row list-group-item">
+			<div class="col-xs-6">
+				<img src="img/zxc.jpeg" class="img-responsive">
+			</div>
+			<div class="col-xs-6">
+				<img src="img/zxc.jpeg" class="img-responsive">
+			</div>
+		</div>
+		<div class="row list-group-item">
+			<div class="col-xs-6">
+				<img src="img/zxc.jpeg" class="img-responsive">
+			</div>
+			<div class="col-xs-6">
+				<img src="img/zxc.jpeg" class="img-responsive">
+			</div>
+		</div>
+		<div class="row list-group-item">
+			<div class="col-xs-6">
+				<img src="img/zxc.jpeg" class="img-responsive">
+			</div>
+			<div class="col-xs-6">
+				<img src="img/zxc.jpeg" class="img-responsive">
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
 </html>
